@@ -1,10 +1,11 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-paginate: 10 # pagination based on number of posts
+paginate: 6 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-pygments: true
-markdown: kramdown
+hightlighter: pygments
+markdown: redcarpet
+excerpt_separator: ""
 
 
 defaults:
@@ -12,18 +13,18 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: liupeng
 
-description: Stylish Jekyll Theme
+description: Liupeng's Blog
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name: liupeng
+  email: dp90219@gmail.com
+  github: dp90219
+  twitter: liupeng6
+  # pinterest: asd123
+  linkedin: 175788121
+  bio: Be happy to code
+  email_md5: 3c031ce9a3dc035a9d7d19afb4e7d8bb
 
 rss_path: feed.xml
 categories_path: categories.html
