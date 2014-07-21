@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+    <title>Liupeng's site</title>
+    <meta name="Resource-type" content="Document" />
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="css/fp.css" />
+    <style>
+
+      /* Style for our header texts 
+      * --------------------------------------- */
+      h1{
+        font-size: 5em;	
+        font-family: arial,helvetica;
+        color: #fff;
+        margin:0;
+        padding:0;
+      }
+
+      /* Centered texts in each section 
+      * --------------------------------------- */
+      .section{
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+      }
+
+
+      /* Backgrounds will cover all the section
+      * --------------------------------------- */
+      .section, .slide{
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-origin: padding-box;
+      }
+
+      /* Defining each sectino background and styles 
+      * --------------------------------------- */
+      #section0{
+        background-color: rgb(143, 185, 139);
+        padding: 3% 0 0 0;
+      }
+      #section1{
+        background-image: url(http://fullpage.qiniudn.com/p1.jpg);
+        padding: 3% 0 0 0;
+      }
+
+      #section3{
+        background-image: url(http://fullpage.qiniudn.com/p5.jpg);
+        padding: 3% 0 0 0;
+      }
+      #section4{
+        background-image: url(http://fullpage.qiniudn.com/p6.jpg);
+        padding: 3% 0 0 0;
+      }
+      #section8{
+        background-color: rgb(222, 86, 75);
+        background-size: contain;
+        background-image: url(http://fullpage.qiniudn.com/p9.jpg);
+        padding: 3% 0 0 0;
+      }
+      #section{
+        background-image: url();
+        padding: 3% 0 0 0;
+      }
+
+      #section{
+        background-image: url();
+        padding: 3% 0 0 0;
+      }
+      #section{
+        background-image: url();
+        padding: 3% 0 0 0;
+      }
+      #section{
+        background-image: url();
+        padding: 3% 0 0 0;
+      }
+      #section{
+        background-image: url();
+        padding: 3% 0 0 0;
+      }
+
+
+
+
+
+
+
+      /*Adding background for the slides
+      * --------------------------------------- */
+      #slide0{
+        background-image: url(http://fullpage.qiniudn.com/p2.jpg);
+      }
+      #slide1{
+        background-image: url(http://fullpage.qiniudn.com/p3.jpg);
+      }
+      #slide2{
+        background-image: url(http://fullpage.qiniudn.com/p4.jpg);
+      }
+      #slide3{
+        background-image: url(http://fullpage.qiniudn.com/p7_0.jpg);
+      }
+      #slide4{
+        background-image: url(http://fullpage.qiniudn.com/p7_1.jpg);
+      }
+      #slide5{
+        background-image: url(http://fullpage.qiniudn.com/p8_0.jpg);
+      }
+      #slide6{
+        background-image: url(http://fullpage.qiniudn.com/p8_1.jpg);
+      }
+
+      #slide7{
+        background-image: url(http://fullpage.qiniudn.com/p10_0.jpg);
+      }
+      #slide8{
+        background-image: url(http://fullpage.qiniudn.com/p10_1.jpg);
+      }
+      #slide9{
+        background-image: url(http://fullpage.qiniudn.com/p10_2.jpg);
+      }
+      #slide10{
+        background-image: url(http://fullpage.qiniudn.com/p10_3.jpg);
+      }
+
+      #slide11{
+        background-image: url(http://fullpage.qiniudn.com/p10_4.jpg);
+      }
+      #slide12{
+        background-image: url(http://fullpage.qiniudn.com/p10_5.jpg);
+      }
+      #slide13{
+        background-image: url(http://fullpage.qiniudn.com/p10_6.jpg);
+      }
+      #slide14{
+        background-image: url(http://fullpage.qiniudn.com/p10_7.jpg);
+      }
+
+      #slide15{
+        background-image: url(http://fullpage.qiniudn.com/p10_8.jpg);
+      }
+      #slide16{
+        background-image: url(http://fullpage.qiniudn.com/p10_9.jpg);
+      }
+      #slide17{
+        background-image: url(http://fullpage.qiniudn.com/p10_10.jpg);
+      }
+      #slide18{
+        background-image: url(http://fullpage.qiniudn.com/p10_11.jpg);
+      }
+      #slide19{
+        background-color: rgb(222, 86, 75);
+        background-size: contain;
+        background-image: url(http://fullpage.qiniudn.com/p11_0.jpg);
+      }
+      #slide20{
+        background-image: url(http://fullpage.qiniudn.com/p11_1.jpg);
+      }
+      #slide21{
+        background-image: url(http://fullpage.qiniudn.com/p11_2.jpg);
+      }
+      #slide22{
+        background-image: url(http://fullpage.qiniudn.com/p11_3.jpg);
+      }
+
+      #slide23{
+        background-image: url(http://fullpage.qiniudn.com/p11_4.jpg);
+      }
+
+      #slide24{
+        background-image: url(http://fullpage.qiniudn.com/p12_0.jpg);
+      }
+      #slide25{
+        background-image: url(http://fullpage.qiniudn.com/p12_1.jpg);
+      }
+      #slide26{
+        background-image: url(http://fullpage.qiniudn.com/p12_2.jpg);
+      }
+
+      #slide27{
+        background-image: url(http://fullpage.qiniudn.com/p12_3.jpg);
+      }
+      #slide28{
+        background-image: url(http://fullpage.qiniudn.com/p12_4.jpg);
+      }
+
+      #slide29{
+        background-image: url(http://fullpage.qiniudn.com/p13_3.jpg);
+      }
+      #slide30{
+        background-image: url(http://fullpage.qiniudn.com/p13_0.jpg);
+      }
+      #slide31{
+        background-image: url(http://fullpage.qiniudn.com/p13_1.jpg);
+      }
+      #slide32{
+        background-image: url(http://fullpage.qiniudn.com/p13_2.jpg);
+      }
+
+      #slide33{
+        background-image: url(http://fullpage.qiniudn.com/p14_0.jpg);
+      }
+      #slide34{
+        background-image: url(http://fullpage.qiniudn.com/p14_1.jpg);
+      }
+      #slide35{
+        background-image: url(http://fullpage.qiniudn.com/p14_2.jpg);
+      }
+      #slide36{
+        background-image: url(http://fullpage.qiniudn.com/p14_3.jpg);
+      }
+      #slide37{
+        background-image: url(http://fullpage.qiniudn.com/p14_4.jpg);
+      }
+      #slide38{
+        background-image: url(http://fullpage.qiniudn.com/p14_5.jpg);
+      }
+
+      #slide39{
+        background-image: url(http://fullpage.qiniudn.com/p14_6.jpg);
+      }
+      #slide40{
+        background-image: url();
+      }
+
+
+
+
+
+      .text {
+        display: none
+      }
+
+    </style>
+
+    <!--[if IE]>
+    <script type="text/javascript">
+      var console = { log: function() {} };
+</script>
+<![endif]-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+
+<script type="text/javascript" src="css/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="css/fp.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      $('#fullpage').fullpage({
+        verticalCentered: true,
+        css3: true,
+        navigation: true,
+        navigationPosition: "right",
+        slidesNavigation: true,
+        slidesNavPosition: "bottom",
+        touchSensitivity: 1,
+        // scrollOverflow: true,
+        onLeave: function(index, nextIndex, direction) {
+          // alert("here" + index + nextIndex);
+          which =  "#section" + (parseInt(nextIndex)-1) + " .text:hidden";
+
+          $(which).fadeIn(3000);
+        },
+
+        onSlideLeave: function(anchorLink, index, slideIndex, direction) {
+          // alert(index + ", " + slideIndex + ", " + direction);
+          which = "#slide" + (parseInt(slideIndex) + 1) + " .text";
+          $(which).hide();
+          $(which).fadeIn(3000);
+
+        }
+    });
+  });
+</script>
+
+</head>
+<body>
+
+  <div id="fullpage">
+    <div class="section " id="section0">
+      <h1>Who Am I ?</h1>
+      <small>email: echo ZHA5MDIxOUBnbWFpbC5jb20= | base64 -d</small>
+    </div>
+    <div class="section" id="section1"><div class="text text_top_left"><p>When I was yong...</p></div></div>
+
+    <div class="section" id="section2">
+      <div class="slide" id="slide0"><div class="text text_top_right"><p>Naive ...</p></div></div>
+      <div class="slide" id="slide1"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide2"><div class="text text_top_right"><p></p></div></div>
+
+      <!-- <div class="slide" id="slide"><div class="text text_top_right"><p></p></div></div> -->
+
+    </div>
+
+
+
+    <div class="section" id="section3"><div class="text text_top_left"><p></P></div></div>
+    <div class="section" id="section4"><div class="text text_top_left"><p></P></div></div>
+    <div class="section" id="section5">
+      <div class="slide" id="slide3"><div class="text text_top_right"><p>小五台山</p></div></div>
+      <div class="slide" id="slide4"><div class="text text_top_right"><p></p></div></div>
+    </div>
+    <div class="section" id="section6">
+      <div class="slide" id="slide5"><div class="text text_top_right"><p>拙政园</p></div></div>
+      <div class="slide" id="slide6"><div class="text text_top_right"><p></p></div></div>
+    </div>
+
+    <div class="section" id="section7">
+      <div class="slide" id="slide7"><div class="text text_top_right"><p>夜行长安</p></div></div>
+      <div class="slide" id="slide8"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide9"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide10"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide11"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide12"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide13"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide14"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide15"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide16"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide17"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide18"><div class="text text_top_right"><p></p></div></div>
+
+    </div>
+
+
+
+
+
+    <div class="section" id="section8"><div class="text text_top_left"><p>糟糕的毕设</p></div></div>
+    <div class="section" id="section9">
+      <div class="slide" id="slide19"><div class="text text_top_right"><p>曲江公园</p></div></div>
+      <div class="slide" id="slide20"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide21"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide22"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide23"><div class="text text_top_right"><p></p></div></div>
+    </div>
+
+    <div class="section" id="section10">
+      <div class="slide" id="slide24"><div class="text text_top_right"><p>图书馆顶</p></div></div>
+      <div class="slide" id="slide25"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide26"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide27"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide28"><div class="text text_top_right"><p></p></div></div>
+    </div>
+
+    <div class="section" id="section11">
+      <div class="slide" id="slide29"><div class="text text_top_right"><p>毕业典礼</p></div></div>
+      <div class="slide" id="slide30"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide31"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide32"><div class="text text_top_right"><p></p></div></div>
+    </div>
+
+    <div class="section" id="section11">
+      <div class="slide" id="slide33"><div class="text text_top_right"><p>毕业晚会，我走了</p></div></div>
+      <div class="slide" id="slide34"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide35"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide36"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide37"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide38"><div class="text text_top_right"><p></p></div></div>
+      <div class="slide" id="slide39"><div class="text text_top_right"><p></p></div></div>
+    </div>
+
+
+
+  </div>
+</body>
+</html>

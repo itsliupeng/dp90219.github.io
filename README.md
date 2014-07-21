@@ -1,4 +1,4 @@
-dbyll
+byll
 =====
 
 Open source stylish, minimalistic theme for jekyll.  
