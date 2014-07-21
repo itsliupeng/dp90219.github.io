@@ -16,6 +16,12 @@ defaults:
       title: liupeng
 
 description: Liupeng's Blog
+
+singflying:
+  url: http://www.singflying.com
+  name: singflying
+  image: /assets/images/singflying.jpg
+
 author:
   name: liupeng
   email: dp90219@gmail.com
