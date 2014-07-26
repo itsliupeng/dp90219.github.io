@@ -39,3 +39,8 @@ title: Rails Learning Note
 - nil.to_i  是 0
 - [rails private protected
   的区别](http://stackoverflow.com/questions/3534449/why-does-ruby-have-both-private-and-protected-methods)
+
+## 07-26
+- around_([update, destroy...]) 等 helper， 相当于同时设定 before_([update, destroy...])， after_([update, destroy...])
+- where 语句 ＋ update_all
+- select2 gem, 适合 select input 同时选择多个项
