@@ -104,4 +104,39 @@ title: Head First Design Patterns
   - view  --> controller: 策略模式
   - view 的不同组建：组合模式
 
+## Bridge
+  不只改变实现，还改变抽象
+
+## Builder 生成器
+  封装一个产品的构造过程，并允许按步骤构造
+
+## Chain of Responsibility
+  让一个以上的对象有机会能够处理某个请求的时候，就使用责任链模式
+
+  我觉得 web middleware stack 是这种模式
+
+## Flyweight
+  让某个类的一个实例能用来提供许多“虚拟实例” 
+
+## Interpreter
+  为语言创建解释器
+
+## Mediator 中介者
+  来集中相关对象之间复杂的沟通和控制方式
+
+## Memento 备忘录
+  返回之前的状态，如撤销
+
+## Prototype 原型
+  当创建给定类的实例过程很昂贵或很复杂时
+
+## Visitor 访问者
+  为对象的一个组合增加新的能力，且封装并不重要时
+
+## 模式分类
+  创建型：Singleton, Abstract Factory, Factory Method, Builder, Prototype
+
+  行为型：Template Method, Command, Iterator, Observer, Strategy, Visitor Method, Memento, Interpreter, Chain of Responsibility
+
+  结构型：Decorator, Proxy, Facade, Composite, Adaptor, Flyweight, Bridge
 
