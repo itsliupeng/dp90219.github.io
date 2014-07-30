@@ -13,7 +13,6 @@ title: Http Cache
   - If-Modified-Since
 
 
-**ssh deploy@112.124.46.39**
 
 ### Cache-Control
   - max-age
@@ -29,4 +28,5 @@ title: Http Cache
 
 
 [railscast http cache](http://railscasts.com/episodes/321-http-caching?view=asciicast)
+
 [Caching Tutorial](https://www.mnot.net/cache_docs/)
