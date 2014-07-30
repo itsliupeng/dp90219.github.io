@@ -11,7 +11,7 @@ title: Shell Cmd Note
   sed '2,5c No 2-5 Lines': change
   sed -n '2,5p': print
   sed 's/old_string/new_string/g': substitude
-  sed 's/#.*$//g' || sed '/^$/d': 删除＃注释
+  sed 's/#.*$//g' || sed '/^$/d': 删除＃注释和空行
 
   sed -i 's/\.$/\!/g' file : 写入文件
   sed -i '$a add after the last line' file

@@ -44,3 +44,6 @@ title: Rails Learning Note
 - around_([update, destroy...]) 等 helper， 相当于同时设定 before_([update, destroy...])， after_([update, destroy...])
 - where 语句 ＋ update_all
 - select2 gem, 适合 select input 同时选择多个项
+
+## 07-30
+- 自己加的 action，如 collection, 注意是 collection or memeber
