@@ -47,3 +47,11 @@ title: Rails Learning Note
 
 ## 07-30
 - 自己加的 action，如 collection, 注意是 collection or memeber
+
+## 07-31 
+  最近买了一个月的 railscast pro 权限
+
+  - [rack-mini-profiler](http://railscasts.com/episodes/368-miniprofiler) 显示 SQL 性能, .size 与 .length 区别
+  - 使用 hirb gem 在 rails c 中显示图表
+  - include vs joins
+

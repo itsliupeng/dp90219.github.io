@@ -3,6 +3,7 @@ layout: post
 ---
 *written by [Ren Tianhui](http://blog.renren.com/blog/248934194/733644327?bfrom=01020100200)*
 <pre>
+
  一个故事应该如何开头
 
   我不知道
